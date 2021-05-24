@@ -1,0 +1,80 @@
+ ./wapiti train -a sgd-l1 -i 30 -p dat/CloudData/business-search/template.txt dat/CloudData/business-search/train.txt dat/CloudData/business-search/model-sgd-30 > dat/CloudData/business-search/log_sgd_30
+* Load patterns
+* Load training data
+   1000 sequences loaded
+   2000 sequences loaded
+   3000 sequences loaded
+   4000 sequences loaded
+   5000 sequences loaded
+   6000 sequences loaded
+   7000 sequences loaded
+   8000 sequences loaded
+   9000 sequences loaded
+  10000 sequences loaded
+  11000 sequences loaded
+  12000 sequences loaded
+  13000 sequences loaded
+  14000 sequences loaded
+  15000 sequences loaded
+  16000 sequences loaded
+  17000 sequences loaded
+  18000 sequences loaded
+  19000 sequences loaded
+  20000 sequences loaded
+  21000 sequences loaded
+  22000 sequences loaded
+  23000 sequences loaded
+  24000 sequences loaded
+  25000 sequences loaded
+  26000 sequences loaded
+  27000 sequences loaded
+  28000 sequences loaded
+  29000 sequences loaded
+  30000 sequences loaded
+  31000 sequences loaded
+  32000 sequences loaded
+  33000 sequences loaded
+  34000 sequences loaded
+  35000 sequences loaded
+  36000 sequences loaded
+  37000 sequences loaded
+  38000 sequences loaded
+  39000 sequences loaded
+  40000 sequences loaded
+  41000 sequences loaded
+  42000 sequences loaded
+  43000 sequences loaded
+  44000 sequences loaded
+  45000 sequences loaded
+  46000 sequences loaded
+  47000 sequences loaded
+  48000 sequences loaded
+* Initialize the model
+* Summary
+    nb train:    48011
+    nb labels:   81
+    nb blocks:   3809425
+    nb features: 308569905
+* Train the model with sgd-l1
+    - Build the index
+      Done
+  [   1] obj=NA act=2180180  err= 2.35%/12.34% time=222.36s/222.36s
+  [   2] obj=NA act=1671277  err= 1.52%/ 7.79% time=216.44s/438.80s
+  [   3] obj=NA act=545113   err= 1.26%/ 6.36% time=213.34s/652.14s
+  [   4] obj=NA act=422815   err= 1.09%/ 5.82% time=212.69s/864.83s
+  [   5] obj=NA act=289995   err= 1.16%/ 5.17% time=212.61s/1077.44s
+  [   6] obj=NA act=240015   err= 0.76%/ 3.66% time=214.50s/1291.94s
+  [   7] obj=NA act=194148   err= 0.43%/ 2.38% time=212.99s/1504.93s
+  [   8] obj=NA act=167653   err= 1.06%/ 3.54% time=212.38s/1717.31s
+  [   9] obj=NA act=148812   err= 0.26%/ 1.50% time=212.32s/1929.63s
+  [  10] obj=NA act=133044   err= 0.29%/ 1.29% time=212.75s/2142.38s
+  [  11] obj=NA act=122437   err= 0.90%/ 3.38% time=214.74s/2357.12s
+  [  12] obj=NA act=114539   err= 0.09%/ 0.53% time=213.54s/2570.66s
+  [  13] obj=NA act=108133   err= 0.06%/ 0.44% time=212.84s/2783.50s
+  [  14] obj=NA act=102785   err= 0.05%/ 0.30% time=212.81s/2996.32s
+  [  15] obj=NA act=99043    err= 0.04%/ 0.30% time=212.96s/3209.28s
+  [  16] obj=NA act=96044    err= 0.04%/ 0.28% time=214.46s/3423.74s
+  [  17] obj=NA act=93481    err= 0.03%/ 0.22% time=213.87s/3637.61s
+  [  18] obj=NA act=91188    err= 0.03%/ 0.22% time=212.90s/3850.51s
+* Save the model
+* Done
